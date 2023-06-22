@@ -16,37 +16,37 @@ body{
 }
 @keyframes slider{
     0%{
-        background-image: url("/images/pexels-paweł-fijałkowski-1271147.jpg");
+        background-image: url(images/pexels-paweł-fijałkowski-1271147.jpg);
     }
     10%{
-        background-image: url("/images/pexels-william-choquette-1954524.jpg");
+        background-image: url(images/pexels-william-choquette-1954524.jpg);
     }
     20%{
-        background-image: url("/images/pexels-guduru-ajay-bhargav-863988.jpg");   
+        background-image: url(images/pexels-guduru-ajay-bhargav-863988.jpg);   
     }
     30%{
-        background-image: url("/images/pexels-savanna-goldring-5184327.jpg");
+        background-image: url(images/pexels-savanna-goldring-5184327.jpg);
     }
     40%{
-        background-image: url("/images/pexels-david-gomes-2647471.jpg");
+        background-image: url(images/pexels-david-gomes-2647471.jpg);
     }
     50%{
-        background-image:url("/images/pexels-pixabay-235922.jpg");
+        background-image:url(images/pexels-pixabay-235922.jpg);
     }
     60%{
-        background-image: url("/images/pexels-andrea-piacquadio-3764538.jpg");
+        background-image: url(images/pexels-andrea-piacquadio-3764538.jpg);
     }
     70%{
-        background-image: url("/images/pexels-the-lazy-artist-gallery-2247179.jpg");
+        background-image: url(images/pexels-the-lazy-artist-gallery-2247179.jpg);
     }
     80%{
-        background-image: url("/images/pexels-pixabay-248547.jpg");
+        background-image: url(images/pexels-pixabay-248547.jpg);
     }
     90%{
-        background-image: url("/images/pexels-tom-fisk-3448246.jpg");
+        background-image: url(images/pexels-tom-fisk-3448246.jpg);
     }
     100%{
-        background-image: url("/images/pexels-joaquín-ponce-1089087.jpg");
+        background-image: url(images/pexels-joaquín-ponce-1089087.jpg);
     }
 }
 header{
