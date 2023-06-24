@@ -64,12 +64,14 @@ updateBMIIndicator(bmi);
         let category;
         if (bmi < 18.5) {
           category = 'underweight';
+          document.getElementById("type").innerHTML="Underweight";
           document.getElementById("Result").innerHTML = "You Fall under 'UnderWeight' Category.Eat nutrient-dense foods and have frequent small meals.";
           document.getElementById("P1").innerHTML=" Increase Caloric Intake";
           document.getElementById("P2").innerHTML=" Balance Macronutrients ";
           document.getElementById("P3").innerHTML=" Have Frequent meals and Nutrient rich food with high Protein sources";
           document.getElementById("P5").innerHTML="Here is what to follow:";
         } else if (bmi >=18.5 && bmi < 25) {
+          document.getElementById("type").innerHTML="Normal";
           category = 'normal';
           document.getElementById("Result").innerHTML = "You Fall under 'Normal weight' Category.Maintain a balanced diet and exercise regularly.";
           document.getElementById("P1").innerHTML=" Eat a Variety of Nutrient-Dense Foods";
@@ -77,6 +79,7 @@ updateBMIIndicator(bmi);
           document.getElementById("P3").innerHTML=" Minimize Processed Foods and Added Sugars";
           document.getElementById("P5").innerHTML="Here is what to follow:";
         } else if (bmi>=25 && bmi < 30) {
+          document.getElementById("type").innerHTML="Overweight";
           category = 'overweight';
           document.getElementById("Result").innerHTML = " You Fall under 'Overweight' Category.Engage in regular physical activity ";
           document.getElementById("P1").innerHTML=" Have Mindful eating habits";
@@ -85,6 +88,7 @@ updateBMIIndicator(bmi);
           document.getElementById("P5").innerHTML="Here is what to follow:";
         } else {
           category = 'obese';
+          document.getElementById("type").innerHTML="Obese";
           document.getElementById("Result").innerHTML = "You Fall under 'Obese' Category.Engage in regular physical activity ";
           document.getElementById("P1").innerHTML=" Increase Fiber Intake";
           document.getElementById("P2").innerHTML=" Regular Physical Activity andHydration";
