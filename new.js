@@ -7,6 +7,10 @@
       alert("Please enter valid numbers for weight and height.");
       return;
     }
+    if(weight > 200  || height1 > 10  || height2 > 12){
+  alert("Please Enter Valid Input");
+  return;
+    }
     var heightFeet = (height1 * 0.3048); 
     var heightInch = (height2 * 0.0254); 
     var height = heightFeet + heightInch;
@@ -56,10 +60,6 @@
 updateBMIIndicator(bmi);
 
 }*/
-if(weight > 200  || height1 > 10  || height2 > 12){
-  alert("Please Enter Valid Input");
-  return;
-}
     
         let category;
         if (bmi < 18.5) {
@@ -72,7 +72,7 @@ if(weight > 200  || height1 > 10  || height2 > 12){
         } else if (bmi >=18.5 && bmi < 25) {
           category = 'normal';
           document.getElementById("Result").innerHTML = "You Fall under 'Normal weight' Category.Maintain a balanced diet and exercise regularly.";
-          document.getElementById("P1").innerHTML=" Eat a Variety of Nutrient-Dense Foods<";
+          document.getElementById("P1").innerHTML=" Eat a Variety of Nutrient-Dense Foods";
           document.getElementById("P2").innerHTML=" Portion Control with Balanced Macronutrients ";
           document.getElementById("P3").innerHTML=" Minimize Processed Foods and Added Sugars";
           document.getElementById("P5").innerHTML="Here is what to follow:";
