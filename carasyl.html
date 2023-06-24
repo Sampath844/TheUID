@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles_carasyl.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +20,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chokokutai&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <style>
+<style>
    
- body{ 
+ footer{ 
         justify-content: center;
         max-width:80%;
         margin: auto;
@@ -46,10 +44,11 @@
         margin-left: 10px;
       }
       .mydiv {
+        position: relative;
+        top: 50px;
         display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
     height: 85vh; /* 80% of page height */}
 
     .item img {
@@ -85,14 +84,31 @@
 </style>
 
 </head>
+<header>
+    <h2 class="logo"><span class="Wellness">Wellness</span><span class="num">360</span></h2>
+        <nav class="navigation">
+            <a href="login_sucessfull.html">Home </a>
+            <a href="carasyl.html">About</a>
+            <div class="dropdown">
+            <div class="dropbtn"><a href="#">Services</a></div>
+                <div class="dropdown-content">
+                    <a href="bmi2.html">Fitness Marker</a>
+                    <a href="imagemaps.html">Workouts</a>
+                    <a href="#">Training Plans</a>
+                </div>
+            </div>    
+            <a href="contact.html">Contact</a>
+        </nav>
+    </nav>
+</header>
 
-<body>
+<footer>
    
     <div class="mydiv">
     <div class="owl-carousel owl-theme">
     <div class="container"><a href="https://www.sweat.com/blogs/fitness/how-to-use-gym-equipment"> <div class="item"><img src="https://images.wallpaperscraft.com/image/single/barbell_legs_gym_176264_1680x1050.jpg"></div></a><div class="centered"><p>Equipment for Beginners</p></div></div>
     <div class="container"><a href="https://www.wired.com/story/how-to-work-out-from-home/" target="_blank"><div class="item"><img src="https://tse4.explicit.bing.net/th?id=OIP.tk0uGiRed62xftJZfPyOlgHaEo&pid=Api&P=0&h=180"></div></a><div class="centered"><p>Centered</p></div></div>
-    <div class="container"><a href="#"><div class="item"><img src="https://images.hdqwalls.com/download/fitness-gym-girl-nb-1680x1050.jpg"></div></a><div class="centered"><p>Women and Fitness</p></div></div>
+    <div class="container"><img src="https://images.hdqwalls.com/download/fitness-gym-girl-nb-1680x1050.jpg"></div>
     <div class="container"><a href="https://www.yanrefitness.com/gym-safety/" target="_blank"> <div class="item"><img src="https://www.wallpaperup.com/uploads/wallpapers/2013/02/28/46128/ad9b3c62d942da38b9d5d7b07d5dbe6c.jpg"></div></a><div class="centered"><p>Gym Safety</p></div></div>
     <div class="container"><a href="https://www.nccih.nih.gov/health/providers/digest/yoga-for-health-science " target="_blank" > <div class="item"><img src="https://tse1.mm.bing.net/th?id=OIP.Cf56L-g3JAUV5T6huBtTggHaEo&pid=Api&P=0&h=180"></div></a><div class="centered"><p>Yoga and Health</p></div></div>
     <div class="container"><a href="https://www.health.harvard.edu/healthbeat/10-tips-for-exercising-safely" target="_blank"><div class="item"><img src="https://images.wallpaperscraft.com/image/single/gym_dumbbells_inventory_219519_1680x1050.jpg"></div></a><div class="centered"><p>Safe Exercising</p></div></div>
@@ -127,5 +143,5 @@
             }
         }
     })</script>
-</body>
+</footer>
 </html>
