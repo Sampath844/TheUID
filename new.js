@@ -3,7 +3,7 @@
     var weight = parseFloat(document.getElementById("weight").value);
     var height1 = parseFloat(document.getElementById("height1").value);
     var height2 = parseFloat(document.getElementById("height2").value);
-    if (isNaN(weight) || isNaN(height1)) {
+    if (isNaN(weight) || isNaN(height1) ) {
       alert("Please enter valid numbers for weight and height.");
       return;
     }
@@ -56,7 +56,7 @@
 updateBMIIndicator(bmi);
 
 }*/
-if(weight>200 || heightInch > 12 || heightFeet>9 ){
+if((weight >200 )|| (heightInch > 12 )|| (heightFeet > 9) ){
   alert("Please Enter Valid Input")
   return;
 }
