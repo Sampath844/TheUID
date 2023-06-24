@@ -56,8 +56,8 @@
 updateBMIIndicator(bmi);
 
 }*/
-if((weight > 200 ) || ((heightInch > 12 ) || (heightFeet > 9))){
-  alert("Please Enter Valid Input")
+if(weight > 200  || height1 > 10  || height2 > 12){
+  alert("Please Enter Valid Input");
   return;
 }
     
