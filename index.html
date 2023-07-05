@@ -112,6 +112,25 @@ form.addEventListener("submit", e => {
     window.open('login_sucessfull.html', '_self');
   });
 });
+    fetch("https://sheetdb.io/api/v1/5l5acq89wojfz")
+  .then(response => response.json())
+  .then(data => {
+    // Process the retrieved data
+    console.log(data);
+
+    // Example: Loop through the data and display each row
+    data.forEach(row => {
+      console.log(row);
+      // Access specific columns by their names
+      console.log(row.username);
+      console.log(row.email);
+    });
+  })
+  .catch(error => {
+    // Handle any errors
+    console.error(error);
+  });
+
 
     </script>
     <script src="demo.js"></script>
